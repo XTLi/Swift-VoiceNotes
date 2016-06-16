@@ -8,20 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		DF8298B31D0C1FD40041C2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298B21D0C1FD40041C2B0 /* AppDelegate.swift */; };
-		DF8298B51D0C1FD40041C2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298B41D0C1FD40041C2B0 /* ViewController.swift */; };
+		DF8298B51D0C1FD40041C2B0 /* NotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298B41D0C1FD40041C2B0 /* NotesController.swift */; };
 		DF8298B81D0C1FD40041C2B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8298B61D0C1FD40041C2B0 /* Main.storyboard */; };
 		DF8298BA1D0C1FD40041C2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8298B91D0C1FD40041C2B0 /* Assets.xcassets */; };
 		DF8298BD1D0C1FD40041C2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8298BB1D0C1FD40041C2B0 /* LaunchScreen.storyboard */; };
+		DF8298C51D0C42EF0041C2B0 /* VoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298C41D0C42EF0041C2B0 /* VoiceController.swift */; };
+		DF8298C91D0C680C0041C2B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298C61D0C676C0041C2B0 /* UIKit.framework */; };
+		DF8298CB1D0C68310041C2B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298CA1D0C68310041C2B0 /* CoreGraphics.framework */; };
+		DF8298CD1D0C68570041C2B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298CC1D0C68570041C2B0 /* QuartzCore.framework */; };
+		DF8298CF1D0C68640041C2B0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298CE1D0C68640041C2B0 /* AddressBook.framework */; };
+		DF8298D11D0C686F0041C2B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298D01D0C686F0041C2B0 /* CoreLocation.framework */; };
+		DF8298D31D0C687A0041C2B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298D21D0C687A0041C2B0 /* AudioToolbox.framework */; };
+		DF8298D51D0C68840041C2B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298D41D0C68840041C2B0 /* CoreTelephony.framework */; };
+		DF8298D71D0C68900041C2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298D61D0C68900041C2B0 /* Foundation.framework */; };
+		DF8298D91D0C68990041C2B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298D81D0C68990041C2B0 /* SystemConfiguration.framework */; };
+		DF8298DB1D0C68A10041C2B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298DA1D0C68A10041C2B0 /* AVFoundation.framework */; };
+		DF8298DF1D0C69410041C2B0 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298DE1D0C69410041C2B0 /* iflyMSC.framework */; };
+		DF8298E11D0C694D0041C2B0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298E01D0C694D0041C2B0 /* libz.tbd */; };
+		DF8298E31D0C69700041C2B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8298E21D0C69700041C2B0 /* libc++.tbd */; };
+		DF8298E91D0C6EBC0041C2B0 /* OCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8298E81D0C6EBC0041C2B0 /* OCClass.m */; };
+		DF8298EB1D0D517F0041C2B0 /* noteEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298EA1D0D517F0041C2B0 /* noteEditController.swift */; };
+		DF82992F1D1027CE0041C2B0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF82992E1D1027CE0041C2B0 /* CoreData.framework */; };
+		DF8299351D10289B0041C2B0 /* VoiceNoteTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF8299331D10289B0041C2B0 /* VoiceNoteTest.xcdatamodeld */; };
+		DF8299371D1271960041C2B0 /* PersistenceOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8299361D1271960041C2B0 /* PersistenceOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF8298AF1D0C1FD40041C2B0 /* VoiceNoteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceNoteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8298B21D0C1FD40041C2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF8298B41D0C1FD40041C2B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF8298B41D0C1FD40041C2B0 /* NotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesController.swift; sourceTree = "<group>"; };
 		DF8298B71D0C1FD40041C2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF8298B91D0C1FD40041C2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF8298BC1D0C1FD40041C2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF8298BE1D0C1FD40041C2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8298C41D0C42EF0041C2B0 /* VoiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceController.swift; sourceTree = "<group>"; };
+		DF8298C61D0C676C0041C2B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF8298CA1D0C68310041C2B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF8298CC1D0C68570041C2B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF8298CE1D0C68640041C2B0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DF8298D01D0C686F0041C2B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF8298D21D0C687A0041C2B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DF8298D41D0C68840041C2B0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DF8298D61D0C68900041C2B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF8298D81D0C68990041C2B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF8298DA1D0C68A10041C2B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF8298DE1D0C69410041C2B0 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = libs/iflyMSC.framework; sourceTree = "<group>"; };
+		DF8298E01D0C694D0041C2B0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DF8298E21D0C69700041C2B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DF8298E71D0C6EBC0041C2B0 /* VoiceNoteTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceNoteTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF8298E81D0C6EBC0041C2B0 /* OCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCClass.m; sourceTree = "<group>"; };
+		DF8298EA1D0D517F0041C2B0 /* noteEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noteEditController.swift; sourceTree = "<group>"; };
+		DF82992E1D1027CE0041C2B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF8299341D10289B0041C2B0 /* VoiceNoteTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoiceNoteTest.xcdatamodel; sourceTree = "<group>"; };
+		DF8299361D1271960041C2B0 /* PersistenceOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +68,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF82992F1D1027CE0041C2B0 /* CoreData.framework in Frameworks */,
+				DF8298E31D0C69700041C2B0 /* libc++.tbd in Frameworks */,
+				DF8298E11D0C694D0041C2B0 /* libz.tbd in Frameworks */,
+				DF8298DF1D0C69410041C2B0 /* iflyMSC.framework in Frameworks */,
+				DF8298DB1D0C68A10041C2B0 /* AVFoundation.framework in Frameworks */,
+				DF8298D91D0C68990041C2B0 /* SystemConfiguration.framework in Frameworks */,
+				DF8298D71D0C68900041C2B0 /* Foundation.framework in Frameworks */,
+				DF8298D51D0C68840041C2B0 /* CoreTelephony.framework in Frameworks */,
+				DF8298D31D0C687A0041C2B0 /* AudioToolbox.framework in Frameworks */,
+				DF8298D11D0C686F0041C2B0 /* CoreLocation.framework in Frameworks */,
+				DF8298CF1D0C68640041C2B0 /* AddressBook.framework in Frameworks */,
+				DF8298CD1D0C68570041C2B0 /* QuartzCore.framework in Frameworks */,
+				DF8298CB1D0C68310041C2B0 /* CoreGraphics.framework in Frameworks */,
+				DF8298C91D0C680C0041C2B0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +91,7 @@
 		DF8298A61D0C1FD30041C2B0 = {
 			isa = PBXGroup;
 			children = (
+				DF8298C81D0C67F20041C2B0 /* Framworks */,
 				DF8298B11D0C1FD40041C2B0 /* VoiceNoteTest */,
 				DF8298B01D0C1FD40041C2B0 /* Products */,
 			);
@@ -55,13 +109,40 @@
 			isa = PBXGroup;
 			children = (
 				DF8298B21D0C1FD40041C2B0 /* AppDelegate.swift */,
-				DF8298B41D0C1FD40041C2B0 /* ViewController.swift */,
+				DF8298B41D0C1FD40041C2B0 /* NotesController.swift */,
 				DF8298B61D0C1FD40041C2B0 /* Main.storyboard */,
 				DF8298B91D0C1FD40041C2B0 /* Assets.xcassets */,
 				DF8298BB1D0C1FD40041C2B0 /* LaunchScreen.storyboard */,
 				DF8298BE1D0C1FD40041C2B0 /* Info.plist */,
+				DF8298C41D0C42EF0041C2B0 /* VoiceController.swift */,
+				DF8298E81D0C6EBC0041C2B0 /* OCClass.m */,
+				DF8298E71D0C6EBC0041C2B0 /* VoiceNoteTest-Bridging-Header.h */,
+				DF8298EA1D0D517F0041C2B0 /* noteEditController.swift */,
+				DF8299331D10289B0041C2B0 /* VoiceNoteTest.xcdatamodeld */,
+				DF8299361D1271960041C2B0 /* PersistenceOperations.swift */,
 			);
 			path = VoiceNoteTest;
+			sourceTree = "<group>";
+		};
+		DF8298C81D0C67F20041C2B0 /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8298E21D0C69700041C2B0 /* libc++.tbd */,
+				DF8298E01D0C694D0041C2B0 /* libz.tbd */,
+				DF82992E1D1027CE0041C2B0 /* CoreData.framework */,
+				DF8298DE1D0C69410041C2B0 /* iflyMSC.framework */,
+				DF8298DA1D0C68A10041C2B0 /* AVFoundation.framework */,
+				DF8298D81D0C68990041C2B0 /* SystemConfiguration.framework */,
+				DF8298D61D0C68900041C2B0 /* Foundation.framework */,
+				DF8298D41D0C68840041C2B0 /* CoreTelephony.framework */,
+				DF8298D21D0C687A0041C2B0 /* AudioToolbox.framework */,
+				DF8298D01D0C686F0041C2B0 /* CoreLocation.framework */,
+				DF8298CE1D0C68640041C2B0 /* AddressBook.framework */,
+				DF8298CC1D0C68570041C2B0 /* QuartzCore.framework */,
+				DF8298CA1D0C68310041C2B0 /* CoreGraphics.framework */,
+				DF8298C61D0C676C0041C2B0 /* UIKit.framework */,
+			);
+			name = Framworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8298B51D0C1FD40041C2B0 /* ViewController.swift in Sources */,
+				DF8299371D1271960041C2B0 /* PersistenceOperations.swift in Sources */,
+				DF8299351D10289B0041C2B0 /* VoiceNoteTest.xcdatamodeld in Sources */,
+				DF8298E91D0C6EBC0041C2B0 /* OCClass.m in Sources */,
+				DF8298B51D0C1FD40041C2B0 /* NotesController.swift in Sources */,
 				DF8298B31D0C1FD40041C2B0 /* AppDelegate.swift in Sources */,
+				DF8298C51D0C42EF0041C2B0 /* VoiceController.swift in Sources */,
+				DF8298EB1D0D517F0041C2B0 /* noteEditController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +338,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = VoiceNoteTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Li.VoiceNoteTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceNoteTest/VoiceNoteTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -263,10 +356,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = VoiceNoteTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Li.VoiceNoteTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceNoteTest/VoiceNoteTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -291,6 +390,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF8299331D10289B0041C2B0 /* VoiceNoteTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF8299341D10289B0041C2B0 /* VoiceNoteTest.xcdatamodel */,
+			);
+			currentVersion = DF8299341D10289B0041C2B0 /* VoiceNoteTest.xcdatamodel */;
+			path = VoiceNoteTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DF8298A71D0C1FD30041C2B0 /* Project object */;
 }
