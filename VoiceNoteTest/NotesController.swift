@@ -98,7 +98,7 @@ class NotesController: UITableViewController {
     
     
     
-    // MARK: - Table view data source
+// MARK: - Table view data source
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 2
@@ -137,14 +137,44 @@ class NotesController: UITableViewController {
         return true
     }
     
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+    }
+    
     override func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
         if indexPath.section == 0 {
             let deleteAction = UITableViewRowAction(style: .Default, title: "删除", handler: {(action, indexPath) -> Void in
-                //PersistenceOperations.delete()
+                let noteToDelete = self.unEditedNotes[indexPath.row]
+                PersistenceOperations.delete(noteToDelete)
+                self.unEditedNotes.removeAtIndex(indexPath.row)
+                self.tableView.reloadData()
+                print(2)
             })
+            let calendarAction = UITableViewRowAction(style: .Default, title: "加入日程", handler: {(action, indexPath) -> Void in
+                
+            })
+            return [deleteAction, calendarAction]
         }
-        return nil
+        else {
+            let deleteAction = UITableViewRowAction(style: .Default, title: "删除", handler: {(action, indexPath) -> Void in
+                let noteToDelete = self.editedNotes[indexPath.row]
+                PersistenceOperations.delete(noteToDelete)
+                self.editedNotes.removeAtIndex(indexPath.row)
+                self.tableView.reloadData()
+            })
+            let calendarAction = UITableViewRowAction(style: .Default, title: "取消日程", handler: {(action, indexPath) -> Void in
+                
+            })
+            return [deleteAction, calendarAction]
+        }
+    
+      
+        
+       
     }
+    
+// Calender Operations *********************
+    
+    
 
     
 
